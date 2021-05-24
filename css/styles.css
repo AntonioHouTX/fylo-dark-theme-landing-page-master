@@ -1,4 +1,37 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 
+.container {
+  color: hsl(0, 0%, 100%);
+}
+
+.top_links {
+  background-color: hsl(217, 28%, 15%);
+  background-image: url("/images/logo.svg");
+  background-repeat: no-repeat;
+}
+
+.intro {
+  background-color: hsl(218, 28%, 13%);
+}
+
+.intro img {
+  display: block;
+  margin: 0 auto;
+}
+
+.intro h1,
+.intro p {
+  text-align: center;
+}
+
+.get_started {
+  display: flex;
+  justify-content: center;
+}
 
 .attribution {
   font-size: 11px;
@@ -7,4 +40,22 @@
 
 .attribution a { 
   color: hsl(228, 45%, 44%);
+}
+
+/* Mobile Version */
+@media screen and (min-width: 375px) {
+
+}
+
+/* Tablet Version */
+@media screen and (min-width: 768px) {
+
+}
+
+/* Desktop Version */
+@media screen and (min-width: 1025px) {
+  .intro {
+    background-image: url(/images/bg-curvy-desktop.svg);
+    background-repeat: no-repeat;
+  }
 }
