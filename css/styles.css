@@ -58,12 +58,13 @@
 .any_file img {
   display: block;
   margin: 0 auto;
+  margin-bottom: 1rem;
 }
 
 .heading {
   font-family: 'Raleway', sans-serif;
   font-weight: 700;
-}
+  }
 
 .access p,
 .security p,
@@ -71,8 +72,13 @@
 .any_file p {
   font-family: 'Open Sans', sans-serif;
   font-weight: 400;
+  margin: 1rem 10rem;
 }
 
+.productive {
+  background-color: hsl(218, 28%, 13%);
+  display: flex;
+}
 
 .attribution {
   font-size: 11px;
@@ -114,8 +120,9 @@
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr 1fr;
+    grid-row-gap: 5rem;
   }
 
-  
+
 
 }
